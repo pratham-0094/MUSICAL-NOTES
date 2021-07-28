@@ -1,127 +1,125 @@
-:root{
-    font-family: 'Baloo Bhai 2', cursive;
-    background-color: white;
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  background-color: rgb(65 100 100);  
 }
 
-.bar{
-    display: flex;
-    flex-direction: row;
-    height: 30px;
-    background-color: black;
-    margin: 0px ;
-    padding: 8px ;
-    border-radius: 35px;
+.bar {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  background-color: black;
+  margin: 0px;
+  padding: 8px;
+  border-radius: 30px;
 }
 
-.form-control{
-    height: 30px;
-    border-radius: 24px;
-    font-size: medium;
-    padding: 14px;
-    margin: 0px 540px;
-    margin-right: 0px;
+.form-control {
+  height: 30px;
+  border-radius: 24px;
+  font-size: medium;
+  padding: 14px;
+  margin-left: 540px;
 }
 
-div a{
-    margin: 0px 11px;
-    padding: 0px 12px;
-    color: white;
-    border-radius: 35px;
-    font-size: 18px;
-    line-height: 1.8em;
-    font-weight: bold;  
-    text-decoration: none;
-}   
-
-a:hover{
-    background-color: white;
-    color: black;
+div a {
+  margin: 0px 11px;
+  padding: 0px 12px;
+  color: white;
+  border-radius: 35px;
+  font-size: 18px;
+  line-height: 1.8em;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-h4{
-    color: rgb(199, 37, 126);
-    display: inline;
+a:hover {
+  background-color: white;
+  color: black;
 }
 
-h2{
-    display: block;
-    text-align: center;
+h4 {
+  color: rgb(199, 37, 126);
+  display: inline;
 }
 
-
-.catogery{
-    margin: -55px 4px;
-    margin-top: 10px;
-    padding: 14px 4px;
-    padding-top: 10px;
-    padding-bottom: 17px;
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(34, 32, 31, 0.671);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+h2 {
+  display: block;
+  text-align: center;
 }
 
-.az{
-    margin: 3px 4px;
-    padding: 0px 5px;
-    padding-bottom: 35px;
-    height: 30px;
-    padding-right: 7px;
-    padding-left: 13px;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 33px;
-    font-size: 25px;
-    background-color: white;
-    list-style: none; 
+.catogery {
+  margin: -55px 4px;
+  margin-top: 10px;
+  padding: 14px 4px;
+  padding-top: 10px;
+  padding-bottom: 17px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(34, 32, 31, 0.671);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-.key{
-    list-style: none;
-    display: flex;
-    margin: 0px 34px;
-    position: relative;
-    top: -42px;
+.az {
+  margin: 3px 4px;
+  padding: 0px 5px;
+  padding-bottom: 35px;
+  height: 30px;
+  padding-right: 7px;
+  padding-left: 13px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 33px;
+  font-size: 25px;
+  background-color: white;
+  list-style: none;
 }
 
-.key2{
-    background-color: rgb(33, 31, 28);
-    height: 32px;
-    width: 30px;
-    margin: 12px;
+.key {
+  list-style: none;
+  display: flex;
+  margin: 0px 34px;
+  position: relative;
+  top: -42px;
 }
 
-li:hover{
-    background-color: black;
-    color: white;
+.key2 {
+  background-color: rgb(33, 31, 28);
+  height: 32px;
+  width: 30px;
+  margin: 12px;
 }
 
-div img{
-    width: 100%;
+li:hover {
+  background-color: black;
+  color: white;
 }
 
-.equ{
-    height: 420px;
-    width: 300px;
-    background-color: wheat;
-    margin: 10px 10px;
-    margin-bottom: 30px;
+div img {
+  width: 100%;
 }
 
-.info{
-    display: flex;
-    margin: 20px 60px;
+.equ {
+  height: 420px;
+  width: 300px;
+  background-color: wheat;
+  margin: 10px 10px;
+  margin-bottom: 30px;
 }
 
-.des{
-    padding: 0px 8px;
+.info {
+  display: flex;
+  margin: 20px 60px;
 }
 
-.ins:hover{
-    text-decoration: underline;
+.des {
+  padding: 0px 8px;
 }
 
-.hr{
-    height: 420px;
+.ins:hover {
+  text-decoration: underline;
+}
+
+.hr {
+  height: 420px;
 }
