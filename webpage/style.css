@@ -1,6 +1,6 @@
 body {
   font-family: "Baloo Bhai 2", cursive;
-  background-color: rgb(65 100 100);  
+  background-color: rgba(195, 235, 235, 0.199); 
 }
 
 .bar {
@@ -38,7 +38,7 @@ a:hover {
 }
 
 h4 {
-  color: rgb(199, 37, 126);
+  color: rgb(242, 34, 34);
   display: inline;
 }
 
@@ -97,6 +97,7 @@ li:hover {
 
 div img {
   width: 100%;
+  height: 200px;
 }
 
 .equ {
@@ -105,6 +106,8 @@ div img {
   background-color: wheat;
   margin: 10px 10px;
   margin-bottom: 30px;
+  border-color: black;  
+  border-radius: 16px;
 }
 
 .info {
@@ -118,8 +121,22 @@ div img {
 
 .ins:hover {
   text-decoration: underline;
+  text-shadow: 2px 2px 1px rgba(194, 24, 194, 0.39);
 }
 
 .hr {
   height: 420px;
+}
+
+p {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+.equ:hover {
+  box-shadow:2px 2px 20px black;
+  position:relative;
+  bottom: 4px;
+  right: 4px;
 }
